@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakash Khan - YCSAS Intern</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">☣ Portfolio</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#ycsas" class="nav-link">YCSAS</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <span class="toggle-icon">🌙</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Prakash Khan</span>
+                </h1>
+                <p class="hero-subtitle">YCSAS Web Development Intern</p>
+                <p class="hero-desc">A Computer science student who wants to build real world projects.</p>
+                <button class="cta-button" onclick="scrollToProjects()">
+                    My Works
+                </button>
+            </div>
+            <div class="hero-float">
+                <div class="floating-card">⛅</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-heading">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a student diving deep into web development through the YCSAS Internship. I enjoyed creating smooth, interactive web experiences.</p>
+                <p> I want to become a developer who can contribute something important in this computer world .</p>
+            </div>
+            <div class="why-ycsas">
+                <h3>I'm a student at Central Calcutta Polytechnic</h3>
+                <p> My goals are to create real world projects that pushed me hard to grow as a developer.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <h2 class="section-heading">Skills I've learned</h2>
+        <div class="skills-container">
+            <div class="skill-item html" data-skill="HTML">
+                <span class="skill-icon">‹›</span>
+                <h4>HTML</h4>
+            </div>
+            <div class="skill-item css" data-skill="CSS">
+                <span class="skill-icon">#</span>
+                <h4>CSS</h4>
+            </div>
+            <div class="skill-item js" data-skill="JavaScript">
+                <span class="skill-icon">JS</span>
+                <h4>JavaScript</h4>
+            </div>
+            <div class="skill-item git" data-skill="Git">
+                <span class="skill-icon">₲</span>
+                <h4>Git</h4>
+            </div>
+            <div class="skill-item responsive" data-skill="Responsive">
+                <span class="skill-icon">֍</span>
+                <h4>Responsive</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- YCSAS Section -->
+    <section id="ycsas" class="section">
+        <h2 class="section-heading">YCSAS Internship</h2>
+        <div class="ycsas-container">
+            <div class="ycsas-card">
+                <h3>Program</h3>
+                <p>YCSAS Web Development Internship 2025</p>
+            </div>
+            <div class="ycsas-card">
+                <h3>Learned</h3>
+                <ul>
+                    <li>Modern HTML & CSS</li>
+                    <li>JavaScript DOM Manipulation</li>
+                    <li>Responsive Design</li>
+                    <li>Git & Github</li>
+                </ul>
+            </div>
+            <div class="ycsas-card">
+                <h3>Gained</h3>
+                <ul>
+                    <li>Real project experience</li>
+                    <li>Technical knowledge</li>
+                    <li>Portfolio building</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+  <!-- Projects Section -->
+<section id="projects" class="section projects-section">
+    <h2 class="section-heading">My Projects</h2>
+    <div class="projects-container">
+        <div class="project-card" data-modal="portfolio">
+            <div class="project-header">
+                <h3>Portfolio Website</h3>
+                <span class="project-type">YCSAS Task</span>
+            </div>
+            <p>Responsive portfolio showcasing my YCSAS internship </p>
+            <div class="project-buttons">
+                <button class="project-btn" data-modal="portfolio">View Details</button>
+                <a href="http://127.0.0.1:5500/#contact" target="_blank" class="demo-btn">Portfolio</a>
+            </div>
+        </div>
+        <div class="project-card" data-modal="landing">
+            <div class="project-header">
+                <h3>To-do list</h3>
+                <span class="project-type">Practice</span>
+            </div>
+            <p>Created a to-do as the class assignment for my inertnship program as YCSAS </p>
+            <div class="project-buttons">
+                <button class="project-btn" data-modal="landing">View Details</button>
+                <a href="https://prakash-khan-71.github.io/To-do-list/" target="_blank" class="demo-btn">To-do list</a>
+            </div>
+        </div>
+        <div class="project-card" data-modal="form">
+            <div class="project-header">
+                <h3>Github-Page</h3>
+                <span class="project-type">YCSAS Task</span>
+            </div>
+            <p>Created a Github profile and added repositories</p>
+            <div class="project-buttons">
+                <button class="project-btn" data-modal="form">View Details</button>
+                <a href="https://github.com/Prakash-Khan-71?tab=repositories" class="demo-btn disabled">Github</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-heading">Contact Me on</h2>
+        <form id="contactForm" class="contact-form">
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <span class="error"></span>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" placeholder="your@email.com" required>
+                <span class="error"></span>
+            </div>
+            <div class="form-group">
+                <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                <span class="error"></span>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+        <div class="contact-links">
+            <a href="mailto:mypersonalmail003@gmail.com" class="contact-link">＠ Email</a>
+            <a href="https://github.com/Prakash-Khan-71" class="contact-link">₲ GitHub</a>
+            <a href="https://linkedin.com" class="contact-link">in LinkedIn</a>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <h3 id="modal-title"></h3>
+            <p id="modal-desc"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

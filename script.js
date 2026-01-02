@@ -51,16 +51,16 @@ const closeModal = document.querySelector('.close-modal');
 
 const projectData = {
     portfolio: {
-        title: 'Personal Portfolio',
-        desc: 'Fully responsive portfolio built for YCSAS internship with smooth animations, dark/light mode, and interactive elements.'
+        title: 'Registration form',
+        desc: 'It is a registration form made for stuents of a Institute.'
     },
     landing: {
-        title: 'Modern Landing Page',
-        desc: 'Clean landing page design featuring CSS Grid, Flexbox, hover animations, and mobile-first responsive design.'
+        title: 'To-do list',
+        desc: 'Clean landing To-do page design to make your day productive.'
     },
     form: {
-        title: 'Interactive Contact Form',
-        desc: 'Advanced form with real-time validation, error handling, smooth animations, and professional user feedback.'
+        title: 'Prakash Tech',
+        desc: 'A quick interactive web page made for a store to make their online business grow fast among this online shopping era.'
     }
 };
 
